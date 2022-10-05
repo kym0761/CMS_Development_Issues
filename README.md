@@ -57,7 +57,7 @@ Zero Density처럼 플러그인을 따로 만들어야하는데, Pixotope는 C++
 Visual Studio는 .NET, C++ 데스크톱 개발, C++ 게임 개발 워크로드가 총 3가지 설치되어 있어야 한다.
  
 Pixotope SDK는 Pixotope 런처에서 다운받을 수가 있다.
-Pixotope SDK 버전은 Pixotope와 맞춰야 한다. 버전은 런처에서 Help 들어가면 확인할 수 있다.
+'''Pixotope SDK 버전은 Pixotope와 맞춰야 한다.''' 버전은 런처에서 Help 들어가면 확인할 수 있다.
 
 SDK는 6기가 Zip 파일인데, 압축을 풀면 25기가 정도 되는 큰 SDK다.
 이 SDK를 Pixotope Editor 폴더를 찾아서 붙여넣으면 된다.
