@@ -49,3 +49,20 @@ Zero Density에서 Camera Actor를 움직였을 시에, 플레이 중간에 점�
 즉, PlayerController를 새로 만들어서 쓰려면 GameMode를 만들어 지정해야 하는데,
 Zero Density에서 사용하려면, ZDGameMode를 상속받은 GameMode를 만들어야 하는 것을 잊지 말아야한다.
 
+## Pixotope에서 플러그인 사용법
+
+Pixotope도 언리얼 엔진을 커스텀한 버추얼 프로덕션 프로그램이다.
+Zero Density처럼 플러그인을 따로 만들어야하는데, Pixotope는 C++ 빌드가 가능하다.
+윈도우즈 10 환경 기준, Pixotope와 Visual Studio가 설치되어 있어야한다.
+Visual Studio는 .NET, C++ 데스크톱 개발, C++ 게임 개발 워크로드가 총 3가지 설치되어 있어야 한다.
+ 
+Pixotope SDK는 Pixotope 런처에서 다운받을 수가 있다.
+Pixotope SDK 버전은 Pixotope와 맞춰야 한다. 버전은 런처에서 Help 들어가면 확인할 수 있다.
+
+SDK는 6기가 Zip 파일인데, 압축을 풀면 25기가 정도 되는 큰 SDK다.
+이 SDK를 Pixotope Editor 폴더를 찾아서 붙여넣으면 된다.
+
+그 후, Pixotope Editor\Engine\Binaries\Win64\UE4Editor.exe 를 실행하여 C++ 프로젝트를 만들고 플러그인을 Pixotope 버전으로 빌드하면 된다.
+사실 언리얼 바닐라 버전 플러그인도 동작은 하는데, 혹시나 생길 오류의 가능성 때문에 Pixotope에서 빌드를 하는 것을 추천한다.
+
+
